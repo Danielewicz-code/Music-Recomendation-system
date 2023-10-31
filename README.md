@@ -15,7 +15,7 @@ now i’m just checking the dataset to be sure its enough.
 
 i think i can do it, the dataset was inconsistent, meaning it didn´t have basic things for this project, like the genre, lyrics, etc. But i think i did it, first of all i manage to put all the musical features together, an example of these would be: 
 
-| 4 explicit 1204025 non-null bool
+4 explicit 1204025 non-null bool
 5 danceability 1204025 non-null float64
 6 energy 1204025 non-null float64
 7 key 1204025 non-null int64
@@ -28,8 +28,8 @@ i think i can do it, the dataset was inconsistent, meaning it didn´t have basic
 14 valence 1204025 non-null float64
 15 tempo 1204025 non-null float64
 16 duration_ms 1204025 non-null int64
-17 year |
-| --- |
+17 year 
+
 
 here we can see different features, so i put them all together to try to make something like a “genre” that in reality we humans cannot name but the machine learning algorithms can, so hopefully this will work so i can build this model. Tomorrow i’m going to do the vectorization process among other things.
 
